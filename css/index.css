@@ -1,0 +1,75 @@
+/* reset */
+body, p, a, ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+h1, h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+body {
+  background: white;
+  overflow-x: hidden;
+  font-family: 'Game', 'monospace';
+}
+#dashboard {
+  height: 80vh;
+  margin-left: 50px;
+  display: flex;
+}
+
+/* https://getcssscan.com/css-box-shadow-examples */
+#leader-container {
+  height: 80vh;
+  width: 900px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#nextplace-container {
+  height: 80vh;
+  width: 600px;
+  margin-left: 50px;
+}
+
+.header {
+  font-size: 100px;
+  text-align: center;
+}
+.nextplace {
+  height: 15.1vh;
+  width: 100%;
+  margin-bottom: 1.15vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+}
+.pfp {
+  height: 12vh;
+  width: 110px;
+  border-radius: 50px;
+  margin-left: 20px;
+  background-image: url("../img/noah.png");
+  background-size: contain;
+  background-position: center;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.info-container {
+  height: 14vh;
+  width: 500px;
+  margin-left: 30px;
+  border: 1px solid black;
+}
+.number {
+  font-size: 100px;
+  margin-left: 20px;
+}
+
+@font-face {
+  font-family: 'Game';
+  src: url('resources/VT323-Regular.ttf')
+}

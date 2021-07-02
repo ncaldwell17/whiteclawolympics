@@ -18,6 +18,10 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="js/leaderboard.js"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,17 +29,35 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <h1 class="header">Leaderboard</h1>
+  <div id="dashboard">
+    <div id="leader-container"></div>
+    <div id="nextplace-container">
+      <div class="nextplace">
+        <div class="number">2</div>
+        <div class="pfp"></div>
+        <div class="info-container">
+          <div class="name">Noah Caldwell</div>
+        </div>
+      </div>
+      <div class="nextplace"></div>
+      <div class="nextplace"></div>
+      <div class="nextplace"></div>
+      <div class="nextplace"></div>
+    </div>
+  </div>
+
+
+
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+
 </body>
 
 </html>
